@@ -1,0 +1,19 @@
+*{  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    /* colores*/
+    --color-white: #fff;
+    --color-footer:#00252e;
+    --VeryPaleCyan: hsl(193, 100%, 96%);
+    --VeryDarkCyan: hsl(192, 100%, 9%);
+    --GrayishBlue: hsl(208, 11%, 55%);
+    /*tamaños*/
+    --Mobile: 375px;
+    --Desktop: 1440px;
+}
+.footer{
+    background-color: var(--color-footer);
+}
