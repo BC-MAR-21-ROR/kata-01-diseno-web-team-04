@@ -14,6 +14,18 @@
     --Mobile: 375px;
     --Desktop: 1440px;
 }
+.title{
+
+}
+.btn-pill{
+
+}
+.card{ 
+
+}
+.card .card-title{
+
+}
 .footer{
     background-color: var(--color-footer);
 }
