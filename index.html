@@ -1,60 +1,65 @@
-<!qDOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <link rel="stylesheet" href="css/main.css">
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
-  <header>
-    <span><img src="" alt="">Huddle</span>
-    <button>Try It Free</button>
+  <header class="hero">
+    <div class="container">
+      <nav class="nav">
+        <a href="index.html" class="nav__items--cta">
+          <figure><img src="images/logo.svg" alt="Image logo"></figure>
+        </a>
+        <button type="button" href="index.html">Try It Free</button>
+      </nav>
+    </div>
+    <section class="hero__container">
+      <div class="hero__texts">
+        <h1 class="hero__title">Build The Community Your Fans Will Love</h1>
+        <h2 class="hero__subtitle">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</h2>
+        <a href="#" class="hero__cta">Get Started For Free</a>
+      </div>
+    </section>
   </header>
-  
+
   <div>
     <div>
       <h1>Build The Community Your Fans Will Love</h1>
-      <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-        Create connections with your users as you engage in genuine discussion. </p>
+      <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion. </p>
       <button>Get Started For Free</button>
-    </div>    
+    </div>
     <div>
       <img src="" alt="">
     </div>
   </div>
-  
+
   <div>
     <div>
       <img src="" alt="">
     </div>
     <div>
       <h2>Grow Together</h2>
-      <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
+      <p>Generate meaningful discussions with your audience and build a strong, loyal community.
         Think of the insightful conversations you miss out on with a feedback form. </p>
-    </div>    
+    </div>
   </div>
-  
+
   <div>
     <div>
       <img src="" alt="">
     </div>
     <div>
       <h2>Flowing Conversations</h2>
-      <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+      <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads
         have just-in-time loading for a more natural flow.</p>
-    </div>    
+    </div>
   </div>
 
   <div>
@@ -63,9 +68,9 @@
     </div>
     <div>
       <h2>Your Users</h2>
-      <p>It takes no time at all to integrate Huddle with your app's authentication solution. 
+      <p>It takes no time at all to integrate Huddle with your app's authentication solution.
         This means, once signed in to your app, your users can start chatting immediately.</p>
-    </div>    
+    </div>
   </div>
 
   <div>
@@ -75,20 +80,19 @@
     <div>
       <h2>Ready To Build Your Community?</h2>
       <button>Get Started For Free</button>
-    </div>    
+    </div>
   </div>
 
 
   <!-- footer -->
   <footer>
     <div>
-      <span><img src="" alt="">Huddle</span> 
+      <span><img src="" alt="">Huddle</span>
     </div>
 
     <div>
       <ul>
-        <li><span><img src="" alt="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-          incididunt ut labore et dolore magna aliqua</span>
+        <li><span><img src="" alt="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</span>
         </li>
         <li><span><img src="" alt="">+1-543-123-4567</span></li>
         <li><span><img src="" alt="">example@huddle.com</span></li>
@@ -122,5 +126,8 @@
       </div>
     </div>
   </footer>
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/d59db780df.js" crossorigin="anonymous"></script>
 </body>
 </html>
