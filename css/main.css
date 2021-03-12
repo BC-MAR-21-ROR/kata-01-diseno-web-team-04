@@ -114,7 +114,17 @@ footer{
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
+  padding-top: 32px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+  padding-left: 64px;
+  background-color: var(--color-white);
+}
+.card-title {
+
+}
+.card-subtitle {
+  color: var(--GrayishBlue);
 }
 .button-white {
   background-color: var(--color-white);
@@ -177,8 +187,7 @@ footer{
 
 /* Media */
 @media screen and (max-width: 1000px) {
-  .column-8,
-  .column-4 {
+  .column-1, .column-2, .column-3, .column-4, .column-5, .column-6, .column-7, .column-8, .column-9, .column-10 {
     width: 100%;
     text-align: center;
   }
