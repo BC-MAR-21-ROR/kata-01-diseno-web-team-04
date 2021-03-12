@@ -5,10 +5,10 @@
   /* colors*/
   --color-white: #fff;
   --color-footer:#00252e;
-  --VeryPaleCyan: hsl(193, 100%, 96%);
-  --VeryDarkCyan: hsl(192, 100%, 9%);
-  --GrayishBlue: hsl(208, 11%, 55%);
-  --Pink: hsl(322, 100%, 66%);
+  --VeryPaleCyan: #ebfbff;
+  --VeryDarkCyan: #00252e;
+  --GrayishBlue: #808d99;
+  --Pink: #ff52bf;
   /*sizes*/
   --Mobile: 375px;
   --Desktop: 1440px;
@@ -26,7 +26,7 @@ html {
 }
 
 /* Class */
-.button {
+.button-white {
   background-color: var(--color-white);
   border: none;
   color: var(--VeryDarkCyan);
@@ -41,7 +41,25 @@ html {
   transition-duration: 0.5s;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-.button:hover {
+.button-white:hover {
   background-color: rgb(240, 240, 240);
-  color: var(--GrayishBlue;
+  color: var(--GrayishBlue);
+}
+.button-pink {
+  background-color: var(--Pink);
+  border: none;
+  color: var(--color-white);
+  padding: 10px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition-duration: 0.5s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button-pink:hover {
+  background-color: rgb(255, 154, 219);
 }
