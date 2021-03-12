@@ -15,8 +15,6 @@
 }
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 /* Tags */
@@ -35,6 +33,7 @@ h2 {
 /* Class */
 .container {
   padding: 64px;
+  margin: auto;
 }
 .row:after {
   content: "";
@@ -118,6 +117,12 @@ h2 {
   padding: 10px;
   overflow: auto;
 }
+.hero-title {
+  font-size: 3.5vw;
+}
+.hero-subtitle {
+  font-size: 1.4vw;
+}
 .content {
   vertical-align: middle;
   justify-content: center;
@@ -132,13 +137,16 @@ h2 {
   border-radius: 25px;
 }
 .card-title {
-
+  color: var(--VeryDarkCyan);
+  font-size: 2.5vw;
 }
 .card-subtitle {
   color: var(--GrayishBlue);
+  font-size: 1.4vw;
 }
 .button-white {
   background-color: var(--color-white);
+  font-size: 1.4vw;
   border: none;
   color: var(--VeryDarkCyan);
   padding: 16px 60px;
@@ -157,9 +165,10 @@ h2 {
 }
 .button-pink {
   background-color: var(--Pink);
+  font-size: 1.4vw;
   border: none;
   color: var(--color-white);
-  padding: 16px 80px;
+  padding: 1vw 5vw;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -169,7 +178,7 @@ h2 {
   transition-duration: 0.5s;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-.button-pink:hover {
+.button-pink:active {
   background-color: rgb(255, 154, 219);
 }
 .social-button {
