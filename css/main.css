@@ -34,7 +34,6 @@ html {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 50px;
@@ -53,7 +52,6 @@ html {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 50px;
@@ -63,7 +61,22 @@ html {
 .button-pink:hover {
   background-color: rgb(255, 154, 219);
 }
-
+.social-button {
+  background-color: transparent;
+  border-width: medium;
+  color: var(--color-white);
+  padding: 0.5em 0.6em;
+  text-align: center;
+  display: inline-block;
+  margin: 4px;
+  cursor: pointer;
+  border: 2px solid var(--color-white);
+  border-radius: 50%;
+}
+.social-button:hover {
+  color: var(--Pink);
+  border: 2px solid var(--Pink);
+}
 .image-responsive {
   width: 10%; /* modifi to 100% */
   height: auto;
