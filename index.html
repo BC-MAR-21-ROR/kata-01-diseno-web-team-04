@@ -6,27 +6,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/styles.scss">
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
 
 </head>
 <body>
+  <div class="content">
   <header class="hero">
     <div class="container">
       <nav class="nav">
         <a href="index.html" class="nav__items--cta">
           <figure><img src="images/logo.svg" alt="Image logo"></figure>
         </a>
-        <button type="button" href="index.html">Try It Free</button>
+        <button class="btn" type="button" href="index.html">Try It Free</button>
       </nav>
-    </div>
-    <section class="hero__container">
-      <div class="hero__texts">
-        <h1 class="hero__title">Build The Community Your Fans Will Love</h1>
-        <h2 class="hero__subtitle">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</h2>
-        <a href="#" class="hero__cta">Get Started For Free</a>
-      </div>
-    </section>
+    </div>    
+    <div class="flex">
+      <section class="hero__container">
+        <div class="hero__texts">
+          <h1 class="hero__title">Build The Community Your Fans Will Love</h1>
+          <p class="hero__subtitle">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+          <a href="#" class="btn hero__cta">Get Started For Free</a>
+        </div>
+      </section>
+      <section class="hero__container">
+        <img src="images/illustration-mockups.svg" width="100%">
+      </section>
+    </div>    
   </header>
 
   <div>
@@ -129,5 +136,6 @@
 
   <!-- fontawesome -->
   <script src="https://kit.fontawesome.com/d59db780df.js" crossorigin="anonymous"></script>
+</div>
 </body>
 </html>
