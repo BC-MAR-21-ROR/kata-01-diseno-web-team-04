@@ -25,6 +25,8 @@ html{
 body {
   font-family: 'Open Sans', sans-serif;
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: var(--VeryPaleCyan);
 }
 h1 {
   color: var(--VeryDarkCyan);
@@ -105,17 +107,110 @@ h2 {
 .footer{
 	background-color: var(--color-footer);
 }
-@media only screen and (min-width: 600px) {
-  .card{
-    padding: 2rem;
-    width: 80%;
-    height:auto;
-    margin: 5rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 20px;
-	  display:inline-block;
-    background-color: var(--color-white);
-    justify-content: center;
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos Martin */
+html{
+  background: url(../design/mobile-design.jpg);
+  background-size: 100%;
+}
+
+.flex{
+  display: flex;
+}
+
+
+.nav{
+  display: flex;
+  align-content: flex-end;
+  align-items: flex-start;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 26px 16px;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+}
+.nav figure{
+  margin: 0;
+}
+.nav figure img{
+  width: 104px;
+}
+
+
+.btn{
+  font-size: 10px;
+  font-weight: 700;
+  margin-top: -3px;
+  padding: 5px 24px;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0px 2px 12px -6px #00000075;
+  background: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+a.btn.hero__cta {
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  padding: .9em 3.8rem;
+  margin-top: 1rem;
+  font-weight: lighter;
+  background: var(--Pink);
+  color: #ffffff;
+}
+
+.hero__container{
+  padding: 26px;
+}
+h1.hero__title {
+  margin-top: 2.3rem;
+}
+
+p.hero__subtitle{
+  font-size: 16px;
+  color: var(--VeryDarkCyan);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  margin-top: 1.5rem;
+  line-height: 1.5;
+}
+
+/* Movile */
+@media only screen and (max-width: 375px) {
+  header{
+    background: url(../images/bg-hero-mobile.svg);
+  }
+  .flex{
+    flex-direction: column;
+  }
+  body{
     text-align: center;
+  }
+}
+
+/* Medium devices */
+@media only screen and (min-width: 600px) {
+  header{
+    background: url(../images/bg-hero-desktop.svg);
+  }
+  .content{
+    max-width: 1440px;
+    position: relative;
+    margin: 0 auto;
+  }  
+  body{
+    text-align: left;
   }
 }
