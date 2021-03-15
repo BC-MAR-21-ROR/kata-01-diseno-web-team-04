@@ -151,7 +151,7 @@ p.hero__subtitle{
   height:auto;
   margin: 5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 20px;
+  border-radius: 14px;
   display: flex;
   background-color: var(--color-white);
   justify-content: center;
@@ -166,7 +166,7 @@ p.hero__subtitle{
     height:auto;
     margin: 5rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 20px;
+    border-radius: 14px;
     display: block;
     background-color: var(--color-white);
     justify-content: center;
@@ -196,10 +196,11 @@ margin: 1.2rem;
 margin-bottom: 5rem;
 }
 
-.card .card-body h2{
-font-family: 'Open Sans', sans-serif;
-font-weight: bold;
-margin-bottom: 1rem;
+.card  h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
 }
 .card .card-body p{
 font-size: 1.3rem;
@@ -370,19 +371,6 @@ p.hero__subtitle{
   display: block;
   justify-content: center;
 }
-.card{
-  padding: 2rem;
-  width: 80%;
-  height:auto;
-  margin: 5rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 20px;
-  display: flex;
-  background-color: var(--color-white);
-  justify-content: center;
-  justify-items: center;
-  text-align: center;
-}
 
 @media only screen and (max-width: 400px) {
   .card{
@@ -391,7 +379,7 @@ p.hero__subtitle{
     height:auto;
     margin: 5rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 20px;
+    border-radius: 14px;
     display: block;
     background-color: var(--color-white);
     justify-content: space-around;
@@ -412,11 +400,6 @@ margin: 1.2rem;
 margin-bottom: 5rem;
 }
 
-.card .card-body h2{
-font-family: 'Open Sans', sans-serif;
-font-weight: bold;
-margin-bottom: 1rem;
-}
 .card .card-body p{
 font-size: 1.3rem;
 color: #aab3ba;
@@ -514,4 +497,12 @@ footer{
   }
   
   
+}
+
+/* Card flotante */
+.card-float{
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  transform: translateY(25%);
 }
